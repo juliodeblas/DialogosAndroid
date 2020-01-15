@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="DIALOGOS"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="50dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:layout_margin="10dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/dialogo_boton"></Button>
+            <TextView android:text="Información"
+                android:gravity="center"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/si_no_boton"></Button>
+            <TextView android:text="Si/No"
+                android:gravity="center"
+                android:id="@+id/texto_si_no"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/si_no_perso_boton"></Button>
+            <TextView android:text="Personalizado"
+                android:gravity="center"
+                android:id="@+id/texto_si_no_perso_respuesta"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/respuesta_item_boton"></Button>
+            <TextView android:text="Item"
+                android:gravity="center"
+                android:id="@+id/texto_respuesta_item"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/dialogo_singleItem_boton"></Button>
+            <TextView android:text="Item"
+                android:gravity="center"
+                android:id="@+id/texto_dialogo_singleItem"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/dialogo_multipleItem_boton"></Button>
+            <TextView android:text="Item multiple"
+                android:gravity="center"
+                android:id="@+id/texto_dialogo_multipleItem"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/dialogo_perso_boton"></Button>
+            <TextView android:text="Personalizado"
+                android:gravity="center"
+                android:id="@+id/texto_dialogo_perso"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/dialogo_fecha_boton"></Button>
+            <TextView android:text="Fecha"
+                android:gravity="center"
+                android:id="@+id/texto_dialogo_fecha"></TextView>
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Pulsar" android:id="@+id/dialogo_hora_boton"></Button>
+            <TextView android:text="Hora"
+                android:gravity="center"
+                android:id="@+id/texto_dialogo_hora"></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
